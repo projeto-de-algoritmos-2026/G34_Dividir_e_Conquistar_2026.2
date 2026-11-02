@@ -21,7 +21,6 @@ from ordenacoes import bubble_sort
 class TestContagemInversoes(unittest.TestCase):
 
     def test_exemplo_do_slide(self):
-        # slide: 1 5 4 8 10 2 6 9 12 11 3 7 -> 22 inversões
         seq = [1, 5, 4, 8, 10, 2, 6, 9, 12, 11, 3, 7]
         ordenada, inv = contar_inversoes(seq)
         self.assertEqual(inv, 22)
