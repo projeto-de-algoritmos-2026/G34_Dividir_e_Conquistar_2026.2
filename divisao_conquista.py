@@ -1,14 +1,3 @@
-"""
-Algoritmos de Divisão e Conquista (Trabalho 3).
-
-Cada algoritmo tem a versão "dividir e conquistar" e uma versão de
-FORÇA BRUTA, usada para validar o resultado e comparar o desempenho.
-
-  1. Contagem de Inversões ........ O(n log n)   x  força bruta O(n²)
-  2. Mediana das Medianas ......... O(n)         x  ordenar (Heap Sort) O(n log n)
-  3. Par de Pontos Mais Próximos .. O(n log n)   x  força bruta O(n²)
-  4. Karatsuba .................... O(n^1.585)   x  multiplicação escolar O(n²)
-"""
 import math
 import sys
 

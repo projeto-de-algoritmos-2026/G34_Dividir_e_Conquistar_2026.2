@@ -44,8 +44,8 @@ class Usuario:
     def __init__(self, codigo, nome, afinidades):
         self.codigo = codigo
         self.nome = nome
-        self.afinidades = afinidades     # {"acao": 0.83, "drama": 0.12, ...}
-        self.avaliacoes = {}             # {codigo_filme: nota}
+        self.afinidades = afinidades    
+        self.avaliacoes = {}             
 
     def __str__(self):
         return f"{self.nome} (#{self.codigo:04d})"
