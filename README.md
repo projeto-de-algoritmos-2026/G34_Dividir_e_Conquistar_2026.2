@@ -68,35 +68,21 @@ ser exportados para `usuarios.csv` pelo menu *Dados*.
 | `ui.py` | Funções de interface do terminal (menus, tabelas) |
 | `test_*.py` | Testes automatizados |
 
-## Menu
-```
-  Catálogo:
-  1 - Buscar filmes
-  2 - Ordenar catálogo
-
-  Divisão e conquista:
-  3 - Recomendação por gosto      [Contagem de Inversões]
-  4 - Mapa de gostos              [Par de Pontos Mais Próximos]
-  5 - Nota robusta                [Mediana das Medianas]
-  6 - Planejador de maratona      [Karatsuba]
-
-  7 - Comparativos de desempenho
-  8 - Dados (catálogo e usuários)
-
-  0 - Sair
-```
-Em todas as telas, **0 volta** para o menu anterior e **Enter** usa o valor sugerido.
 
 ## Screenshots
 
-### Trabalho 2
-![bubble](imagens/bubble.png)
-![insertion](imagens/insertion.png)
-![comparativo](imagens/comparativo.png)
+### Menu interativo
+![menu](image.png)
+
+### Planejador de maratona - Karatsuba
+![planejador-maratona](image-2.png)
+
+### Comparativo de desempenho - Karatsuba vs Multiplicação Escolar
+![comparativo-karatsuba](image-1.png)
+
 
 ## Vídeo
-- Trabalho 3: (adicionar link)
-- Trabalho 2: https://youtu.be/o7OGsmxZY_U
+https://youtu.be/lacERMeiV9Q
 
 ## Instalação
 Linguagem: Python 3.8+ (apenas biblioteca padrão, nada para instalar).
